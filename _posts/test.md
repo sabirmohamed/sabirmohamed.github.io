@@ -1,19 +1,11 @@
 ---
-title: "Automating compliance with deployIfNotExists"
-date: 2019-05-21
-author: [ "Sabir Mohamed" ]
-category: 
-comments: true
-featured: false
-hidden: true
-published: true
-tags: [ policy, initiative, compliance, governance ]
-header:
-  overlay_image: images/header/whiteboard.jpg
-  teaser: images/teaser/blueprint.png
-sidebar:
-  nav: "policy"
-excerpt: Use built-in Policy Initiatives to deploy Azure Monitoring Agents and remediate non-compliant VMs
+title: Policy
+date: 2019-04-18T15:34:30-04:00
+categories:
+  - blog
+tags:
+  - Jekyll
+  - update
 ---
 
 ## Introduction
