@@ -2,7 +2,7 @@
 title: "Automating compliance with deployIfNotExists"
 date: 2019-05-21
 author: [ "Sabir Mohamed" ]
-category:
+category: 
 comments: true
 featured: false
 hidden: true
