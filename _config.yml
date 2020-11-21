@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sabir Mohamed
-email:
+email: sabirm@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Sabir Mohamed"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Lead Consultant - Cloud."
+  bio    : Lead Consultant - Cloud.<br/>Infrastructure as code, Automation and DevOps
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
