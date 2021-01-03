@@ -5,7 +5,6 @@ categories:
   - DevOps
 tags:
   - DevOps
-classes: wide
 ---
 
 ### Introduction

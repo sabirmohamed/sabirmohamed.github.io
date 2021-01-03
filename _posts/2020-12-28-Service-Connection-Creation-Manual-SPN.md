@@ -15,7 +15,7 @@ In order to deploy resources to an Azure Environment with Azure Pipelines, you w
 Before you begin this guide you'll need the following:
 
 - Azure Subscription
-- Service Principal **In This Guide you will see how to create one**
+- Azure App Registration (Service Principal) **In This Guide you will see how to create one**
 - Azure DevOps Project
 
 ## Create an Azure App Registration 
@@ -28,11 +28,11 @@ Let's look at how you can create an Azure App Registration to solve this
 
 Login to Azure Portal, navigate to Azure Active Directory, and Select **App registrations**
 
-![step-1-Azure-AD-App-Registration.PNG](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-1-Azure-AD-App-Registration.PNG)
+![step-1-Azure-AD-App-Registration.png](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-1-Azure-AD-App-Registration.png)
 
 Select **New Registration**
 
-![step-2-Select-New-Registration.PNG](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-2-Select-New-Registration.PNG)
+![step-2-Select-New-Registration.png](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-2-Select-New-Registration.png)
 
 Enter a Name for the SPN 
 
@@ -101,4 +101,4 @@ There you go, simple as that. In this guide,
 
 Next guide lets look at how we can create the same process with Configuration File with Azure CLI and Powershell and eventually integrate this to Azure DevOps Pipelines.
 
-Thank you for rambling around my blog, hope it was helpful.
+Thank you visiting my blog, hope this guide was helpful.

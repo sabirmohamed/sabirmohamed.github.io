@@ -40,4 +40,4 @@ Like Will Smith said "I want the world to be better because I was here", Is one 
 - RHCSA Red Hat Certified System Administrator
 - CCP – N Citrix NetScaler 10.5
 
-![Certifications.PNG](/Images/Certifications.PNG)
+![Certifications.PNG](/CloudSkills/images/Certifications.PNG)
