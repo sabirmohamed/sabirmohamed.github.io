@@ -8,6 +8,10 @@ tags:
 classes: wide
 ---
 
+{%- include toc -%}
+
+## Introduction
+
 In order to deploy resources to an Azure Environment with Azure Pipelines, you will need a Service Connection in Place. Let's explore how you can create a service connection in Azure DevOps.
 
 ## Prerequisites
@@ -78,12 +82,14 @@ In Azure DevOps, **open** the Service connections page from the project settings
 
 As this Service Connection is targeted towards a Subscription, **Select** Subscription and **provide** the following input parameters
 
+> 
 - Subscription Id
 - Subscription Name
 - Service Principal Id (App Registration Application (client) ID)
 - Service principal key (App Registration Client Secret)
 - Tenant Id
 - Service Connection Name and Description (Optional)
+
 
 ![step-4-Fill-input-parameters.png](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-4-Fill-input-parameters.PNG)
 
@@ -99,6 +105,8 @@ There you go, simple as that. In this guide,
 - Created a Service Connection to Azure Resource Manager using the Service Principal
 - Verified the Connection
 
+Now you can deploy resources to Azure using this Service Connection via Azure Pipelines
+
 Next guide lets look at how we can create the same process with Configuration File with Azure CLI and Powershell and eventually integrate this to Azure DevOps Pipelines.
 
-Thank you visiting my blog, hope this guide was helpful.
+>Thank you visiting my blog, hope this guide was helpful.
