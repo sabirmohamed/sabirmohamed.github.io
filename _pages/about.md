@@ -1,21 +1,21 @@
----
+
 permalink: /about/
 title: "About Me"
 classes: wide
 ---
 
-![Me.png](/Images/AboutMe/Me.png)
+Hi I am Sabir Mohamed, I work as Cloud Solutions Architect at [Visolit](https://www.visolit.net/about-us). While I help Visolit customers to adopt and leverage Azure by Consulting, I also play an Azure Developer Role for Visolit [CCoE](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/organize/cloud-center-of-excellence) Team.
 
-Hey, I am Sabir, playing a Cloud Solution Architect role at [Visolit](https://www.visolit.net/about-us). While I help Visolit customers to adopt and leverage Azure by Consulting, I also play a Azure Developer Role for Visolit [CCoE](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/organize/cloud-center-of-excellence) Team.
+The Visolit Cloud Center of Excellence (CCoE) is a central, cross-functional team in Visolit that develops, manages, and owns the Visolit cloud strategies, standards, and principles and the integrity of the practices. Through the CCoE, Visolit innovates and delivers cloud native services at the speed of business, with high quality and efficiency. Hence DevOps became the standard cloud service delivery method in Visolit.
 
-The Visolit Cloud Center of Excellence (CCoE) is a central, cross-functional team in Visolit that develops, manages, and owns the Visolit cloud strategies, standards, and principles and the integrity of the practices. This is where I Architect/Develop Platform Automation Components with  Infrastructure as Code and Deploying using CI/CD and contributing to automate everything as code in CSP perspective.
+I am privileged to be part of this team where I get tons of hands-on from Architecture and Development of Infrastructure as Code, Policy as Code, CSP End to End Automation Components and Deploying everything using Azure DevOps all while working in Sprints.  
 
-Part of this blog I am going to break it down in the simplest way possible to any beginner level engineer on DevOps and Azure DevOps or maybe document my journey on what I learn where I struggle.
+Part of this blog I will try to break down my posts to a beginner level engineer on All things Azure and Azure DevOps on what I find interesting or maybe document my journey on what I learn where I struggle.
 
 ![Me.png](/Images/AboutMe/Rock.jpg)
 
 >Be Humble, Be Hungry, and Always Be the Hardest Worker In The Room - Dwayne Rock Johnson
->>Is one of the simple things I try to live by. Show my gratitude to Allah, being humble, and try to evolve to be a better version of myself, and contribute and help anyone in whatever the way possible. 
+>>Is one of the simple things I try to live by. Show my gratitude to Allah, being humble, and try to evolve to be a better version of myself, and contribute and help anyone in whatever way possible. 
 
 ### My Current Learning Path:
 
