@@ -1,4 +1,25 @@
-[TOC]
+---
+title: 'Making Azure infrastructure code more composable and maintainable with Terraform modules'        
+tags: [Azure, Terraform]
+excerpt: 'In this post, we show how to make Azure "Infrastructure as Code" more concise and modular. We take an ARM template from the QuickStart Templates repo, we break it down into small, tightly focused units and we combine them as a Terraform configuration'
+header:
+  teaser:
+---
+
+{%- include toc -%}
+
+## The Problem
+
+
+---
+title: Azure DevOps Service Connection Creation with Azure CLI and Powershell
+date: 2021-01-03
+categories:
+  - DevOps
+tags: [DevOps, Automation]
+---
+
+{%- include toc -%}
 
 # Azure DevOps Service Connection Automation with Azure CLI
 
