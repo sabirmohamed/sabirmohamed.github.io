@@ -38,7 +38,7 @@ Before you begin this guide you'll need the following:
 - Azure Subscription
 - Azure App Registration [Service Principal] - App ID and Secret
 - Azure DevOps Project with a PAT [Personal Access Token]. You can find how you can create one [here](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page&WT.mc_id=AZ-MVP-5003674#create-a-pat)
-- Azure CLI installed and configured with Azure DevOps Extention. If you don't have Azure CLI installed, you can download it here.
+- Azure CLI installed and configured with Azure DevOps Extention. If you don't have Azure CLI installed, you can download it [here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
 - Azure DevOps Project Id. You can find below how to retrieve the id.
 
 #### How to Retreive the Azure DevOps Project Id
