@@ -6,20 +6,16 @@ classes: wide
 
 ![Me.png](/Images/AboutMe/Me.png)
 
-I am working as a Cloud Solution Architect at [Visolit](https://www.visolit.net/about-us). While I help Visolit customers to adopt and leverage Azure, I also play a Azure Developer Role for Visolit CCoE Team, The Visolit Cloud Center of Excellence (CCoE) is a central, cross-functional team in Visolit that develops, manages, and owns the Visolit cloud strategies, standards, and principles and the integrity of the practices. This is where I Architect/Develop Platform Automation Componenets with  Infratructure as Code and Deploying using CI/CD and contributing to automate everything as code in CSP perpective.
+Hey, I am Sabir, playing a Cloud Solution Architect role at [Visolit](https://www.visolit.net/about-us). While I help Visolit customers to adopt and leverage Azure by Consulting, I also play a Azure Developer Role for Visolit [CCoE](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/organize/cloud-center-of-excellence) Team.
 
-I am still in the progress of finding my real calling but what drives me in my career is
+The Visolit Cloud Center of Excellence (CCoE) is a central, cross-functional team in Visolit that develops, manages, and owns the Visolit cloud strategies, standards, and principles and the integrity of the practices. This is where I Architect/Develop Platform Automation Components with  Infrastructure as Code and Deploying using CI/CD and contributing to automate everything as code in CSP perspective.
 
-- Listening to customer pain points and addressing that with Technology 
-- Continous Learning and share knowledge and insights to lift my collegues on the Cloud and DevOps Journey
-- Help others to Embrace and Adopt DevOps Culture.
+Part of this blog I am going to break it down in the simplest way possible to any beginner level engineer on DevOps and Azure DevOps or maybe document my journey on what I learn where I struggle.
 
-Apart from my Career Journey, I am a passionate motorsports guy who love working on my car and learning the basics of drifting. Here is a pic of my car 👋
+![Me.png](/Images/AboutMe/Rock.jpg)
 
-![Mycar.png](/Images/AboutMe/Mycar.jpg)
-
->"Be Humble, Be Hungry, and Always Be the Hardest Worker In the Room" - Like Dwayne Rock Johnson said
->>Is one of the simple thing I try to live by. Just trying to evolve to be better version of my self and contribute and help in anyway possible. 
+>Be Humble, Be Hungry, and Always Be the Hardest Worker In The Room - Dwayne Rock Johnson
+>>Is one of the simple things I try to live by. Show my gratitude to Allah, being humble, and try to evolve to be a better version of myself, and contribute and help anyone in whatever the way possible. 
 
 ### My Current Learning Path:
 
@@ -31,7 +27,7 @@ Apart from my Career Journey, I am a passionate motorsports guy who love working
 ### [Professional Certifications](https://www.youracclaim.com/users/sabirmohamed/badges?sort=-state_updated_at&page=1)
 
 #### Microsoft
-- Microsoft Certified Devops Expert
+- Microsoft Certified DevOps Expert
 - Microsoft Certified Azure Solutions Architect Expert
 - Microsoft Certified Azure Security Engineer Associate
 - Microsoft Certified Azure Administrator Associate
@@ -50,3 +46,6 @@ Apart from my Career Journey, I am a passionate motorsports guy who love working
 - RHCSA Red Hat Certified System Administrator
 - CCP – N Citrix NetScaler 10.5
 
+Apart from my Career Journey, I enjoy working on my car and learning the basics of drifting. Here is a pic of my car 👋
+
+![Mycar.png](/Images/AboutMe/Mycar.jpg)
