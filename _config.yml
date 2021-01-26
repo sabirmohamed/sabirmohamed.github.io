@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sabir Mohamed
+title: SABIRMOHAMED.COM
 email: sabirm@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -60,21 +60,15 @@ plugins:
 author:
   name   : "Sabir Mohamed"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : 'Cloud Solution Architect - Visolit.<br>Continues Learner in Cloud Native Architecture and DevOps<br>'
+  bio    : 'Cloud Solution Architect - Visolit.<br>Continues Learner in Cloud and DevOps<br>'
   linkedin : "sabirm"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://sabirmohamed.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/sabirmoe/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sabirmohamed/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/sabirmoe/"
 
 footer:
   links:
@@ -87,6 +81,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/sabirmoe/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://sabirmohamed.com"
 
 defaults:
   # _posts
