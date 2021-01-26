@@ -1,6 +1,6 @@
 ---
-title: Azure DevOps Service Connection Creation with Azure CLI using a Configuration File
-date: 2021-01-03
+title: Create a Azure DevOps Service Connection with Azure Devops CLI using a Configuration file
+date: 2021-01-26
 categories:
   - DevOps
 tags: [DevOps, Automation]
@@ -43,7 +43,7 @@ Before you begin this guide you'll need the following:
 
 #### How to Retreive the Azure DevOps Project Id
 
-You can get a collection of project properties via [REST Api](https://docs.microsoft.com/en-us/rest/api/azure/devops/core/projects/get%20project%20properties?view=azure-devops-rest-6.0)
+You can get a collection of project properties via [REST API](https://docs.microsoft.com/en-us/rest/api/azure/devops/core/projects/get%20project%20properties?view=azure-devops-rest-6.0)
 
 >But without a Postman or creating a Http Request, you can just enter the following API url in the browser replacing your organization name 
 
@@ -59,7 +59,7 @@ And you will get the following response
 To build the following configuration file, you will need
 
   - Service Principal Id (App Registration Application (client) ID)
-  - Service principal key (App Registration Client Secret)
+  - Service Principal Secret (App Registration Client Secret)
   - Tenant Id
   - Subscription Id
   - Subscription Name
@@ -107,7 +107,7 @@ To build the following configuration file, you will need
   "url": "https://management.azure.com/"
 }
 ```
-The above configuration file will be targeted towards a Subscription, you can find a similar configuration targeted towards a Management Group [here](github URL)
+The above configuration file will be targeted towards a Subscription, you can find a similar configuration targeted towards a Management Group [here](https://github.com/sabirmohamed/azure-devops-automation/blob/main/Service-Endpoints/ServiceConnectionMG.json)
 
 Now we have the Configuration File in Place. Let's use this file to create the Service Connection
 
@@ -145,8 +145,7 @@ Validate the Service Connection in the Portal
 
 ![ServiceConnectionValidation.png](/Images/AzureDevOps/ServiceConnection_AzureCLI/ServiceConnectionValidation.png)
 
-
-There you go,
+There you go!
 
 - You populated the Configuration File
 - Logged in to Azure DevOps with the CLI Extention using your PAT 
@@ -157,7 +156,7 @@ Now you can deploy resources to Azure using this Service Connection via Azure Pi
 
 Next guide lets look at how we can create integrate this to Azure DevOps Pipelines
 
->Thank you for visiting my blog, hope this guide was helpful.
+>Thank you for visiting my blog 👋
 
 
 
