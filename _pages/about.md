@@ -1,4 +1,4 @@
-
+---
 permalink: /about/
 title: "About Me"
 classes: wide
