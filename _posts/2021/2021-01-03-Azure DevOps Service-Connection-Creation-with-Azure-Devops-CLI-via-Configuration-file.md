@@ -74,7 +74,7 @@ To build the following configuration file, you will need
       "authenticationType": "spnKey",
       "serviceprincipalid": "ba6a1e3a-038e-4e91-af69-2db54c446871",
       "tenantid": "63bba9bf-5820-408f-b151-c5ce0079c08b",
-      "serviceprincipalkey": "Secret"
+      "serviceprincipalkey": "0-N4B57~7py~CVn56y4GRK3ko.oVsC_Iz8"
     },
     "scheme": "ServicePrincipal"
   },
@@ -85,21 +85,21 @@ To build the following configuration file, you will need
     "subscriptionId": "06e6d20f-d8ff-4658-8441-2a687f0effea",
     "subscriptionName": "Visual Studio Enterprise Subscription"
   },
-  "description": "Visual Studio Enterprise Sub",
+  "description": "Description - CloudSkills Demo",
   "groupScopeId": null,
   "isReady": true,
   "isShared": false,
-  "name": "DevOps Dojo Validation - Sub",
+  "name": "Name - CloudSkills Demo",
   "operationStatus": null,
   "owner": "Library",
   "readersGroup": null,
   "serviceEndpointProjectReferences": [
     {
-      "description": "DevOps Dojo Demo Service Connection",
-      "name": "DevOps Dojo Validation - Sub",
+      "description": "Description - CloudSkills Demo",
+      "name": "Name - CloudSkills Demo",
       "projectReference": {
-        "id": "f3442a88-de61-4002-a250-097bb7918404",
-        "name": "DevOps Dojo"
+        "id": "23437652-1617-4294-abf5-468604d85da4",
+        "name": "CloudSkills"
       }
     }
   ],
@@ -130,7 +130,7 @@ Then Configure the Default Organization and Project using the following command
 az devops configure --defaults organization=https://dev.azure.com/sabirmohamed project="DevOps Dojo"
 ```
 
-## Step 3 - Create the Service Connection
+## Step 3 - Create the Service Connection and Update Permission
 
 Create the Service Connecting pointing the Configuration file
 ```
@@ -145,16 +145,47 @@ Validate the Service Connection in the Portal
 
 ![ServiceConnectionValidation.png](/Images/AzureDevOps/ServiceConnection_AzureCLI/ServiceConnectionValidation.png)
 
-There you go!
+Once you created and validated the Service Connection you will see that the 
+
+Grant access permission to all pipelines Box is unchecked.
+
+![ServiceConnectionValidationGrantAccessUnchecked.png](/Images/AzureDevOps/ServiceConnection_AzureCLI/ServiceConnectionValidationGrantAccessUnchecked.png)
+
+In orded to authorize and update this permission we will have to use the following switch. This switch cannot be applied during the ""service-endpoint create"" command. 
+
+[--enable-for-all](https://docs.microsoft.com/en-us/cli/azure/ext/azure-devops/devops/service-endpoint?view=azure-cli-latest#ext_azure_devops_az_devops_service_endpoint_update-optional-parameters)
+
+First I will run the following command to list the Service Connection Id of the Service Connection that we just created
+
+```
+az devops service-endpoint list --output table
+```
+![ServiceConnectionIDRetreival.png](/Images/AzureDevOps/ServiceConnection_AzureCLI/ServiceConnectionIDRetreival.png)
+
+Once you copy the Id of the Service Connection and let's run it again.
+
+```
+az devops service-endpoint update --id 85898a26-11d8-4358-a7f0-c91fbe4a5d0a --enable-for-all
+```
+Validate whether the permission is granted to authorize all pipelines
+
+![ServiceConnectionValidationGrantAccessChecked.png](/Images/AzureDevOps/ServiceConnection_AzureCLI/ServiceConnectionValidationGrantAccessChecked.png)
+
+## Conclution
 
 - You populated the Configuration File
 - Logged in to Azure DevOps with the CLI Extention using your PAT 
 - Created a Service Connection using the Configuration File
 - Verified the Connection
+- Granted permission to access all pipelines
 
 Now you can deploy resources to Azure using this Service Connection via Azure Pipelines and using this file you can 
 
-Next guide lets look at how we can create integrate this to Azure DevOps Pipelines
+**Automation Possibilities**
+
+- If you do this at Scale, if you have multiple Landing Zones(Subcriptions) and you need to have each Service Connection to talk to them from one Azure DevOps Project. You can use this JSON Configuration File and Convert to Powershell, replace the Secrets and create Multiple Service Connections with diffrent input parameters. Automation Possibilities are endless. 
+
+Next guide lets look at how we can Secure the Service Connection. 
 
 >Thank you for visiting my blog 👋
 
