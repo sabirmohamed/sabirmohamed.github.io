@@ -114,7 +114,9 @@ We will create this towards a Subscription and Select **Subscription** provide t
 
 After Providing the parameters Select **Verify** and it will validate the SPN and Secret you will see Verification Succeeded.
 
-Next Click **Verify and save**
+Check the box for **Grant access permission to all pipelines**
+
+Next Select **Verify and save**
 
 ![step-4-Fill-input-parameters_Updated.PNG](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-4-Fill-input-parameters_Updated.PNG)
 
