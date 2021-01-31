@@ -118,7 +118,7 @@ Next Click **Verify and save**
 
 ![step-4-Fill-input-parameters.png](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-4-Fill-input-parameters.PNG)
 
-![step-4-Fill-input-parameters.png](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-41-grant-access-permission-to-all-pipelines.PNG)
+![step-41-grant-access-permission-to-all-pipelines.PNG](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-41-grant-access-permission-to-all-pipelines.PNG)
 
 Validate the Service Connection again in the portal
 
