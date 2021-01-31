@@ -116,7 +116,7 @@ After Providing the parameters Select **Verify** and it will validate the SPN an
 
 Next Click **Verify and save**
 
-![step-4-Fill-input-parameters.png](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-4-Fill-input-parameters.PNG)
+![step-4-Fill-input-parameters_Updated.PNG](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-4-Fill-input-parameters_Updated.PNG)
 
 ![step-41-grant-access-permission-to-all-pipelines.PNG](/Images/AzureDevOps/ServiceConnection_ManualCreation/step-41-grant-access-permission-to-all-pipelines.PNG)
 
@@ -135,4 +135,4 @@ Now you can deploy resources to Azure using this Service Connection via Azure Pi
 
 Next guide let's look at how we can create the same process with Azure CLI using a Configuration File and eventually integrate this creation to Azure DevOps Pipelines and Assigning Pipeline Permissions. 
 
->Thank you for visiting my blog, hope this this was helpful.
+>Thank you for visiting my blog 👋
