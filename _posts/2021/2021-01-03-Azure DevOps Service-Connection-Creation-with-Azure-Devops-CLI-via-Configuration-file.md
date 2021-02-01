@@ -2,8 +2,8 @@
 title: Create a Azure DevOps Service Connection with Azure Devops CLI using a Configuration file
 date: 2021-01-26
 categories:
-  - DevOps
-tags: [DevOps, Automation]
+  - Azure DevOps
+tags: [Azure DevOps, Automation]
 classes: wide
 ---
 {%- include toc -%}

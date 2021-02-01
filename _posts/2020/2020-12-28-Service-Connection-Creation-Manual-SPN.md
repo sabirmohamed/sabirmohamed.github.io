@@ -4,7 +4,7 @@ date: 2020-12-28
 categories:
   - Azure DevOps
 tags:
-  - DevOps
+  - Azure DevOps
 classes: wide
 ---
 
