@@ -74,7 +74,7 @@ To build the following configuration file, you will need
       "authenticationType": "spnKey",
       "serviceprincipalid": "ba6a1e3a-038e-4e91-af69-2db54c446871",
       "tenantid": "63bba9bf-5820-408f-b151-c5ce0079c08b",
-      "serviceprincipalkey": "PJ_NoW~86fnY9Y.A8M8ZPe7V4~SaZvvj.m"
+      "serviceprincipalkey": "Secret"
     },
     "scheme": "ServicePrincipal"
   },
