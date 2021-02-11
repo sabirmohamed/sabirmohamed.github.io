@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Sabir Mohamed"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : 'Cloud Solutions Architect @ Visolit.<br>Continues Learner in Cloud and DevOps<br>'
+  bio    : 'Continuous Learner in Cloud and DevOps<br>'
   linkedin : "sabirm"
   links:
     - label: "Twitter"

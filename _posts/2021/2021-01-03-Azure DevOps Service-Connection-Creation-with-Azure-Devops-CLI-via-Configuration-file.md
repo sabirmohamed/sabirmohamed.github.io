@@ -36,10 +36,10 @@ when you complete the guide you will be able to do the creation of a Service Con
 Before you begin this guide you'll need the following:
 
 - Azure Subscription
-- Azure App Registration [Service Principal] - App ID and Secret
+- Azure App Registration [Service Principal] - App ID and Secret [here](https://sabirmohamed.com/azure%20devops/Service-Connection-Creation-Manual-SPN/#create-an-azure-app-registration)
 - Azure DevOps Project with a PAT [Personal Access Token]. You can find how you can create one [here](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page&WT.mc_id=AZ-MVP-5003674#create-a-pat)
 - Azure CLI installed and configured with Azure DevOps Extention. If you don't have Azure CLI installed, you can download it [here](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli)
-- Azure DevOps Project Id. You can find below how to retrieve the id.
+- Azure DevOps Project Id. You can find [below](https://sabirmohamed.com/azure%20devops/Azure-DevOps-Service-Connection-Creation-with-Azure-Devops-CLI-via-Configuration-file/#how-to-retreive-the-azure-devops-project-id) how to retrieve the id.
 
 #### How to Retreive the Azure DevOps Project Id
 
@@ -160,9 +160,9 @@ First I will run the following command to list the Service Connection Id of the 
 ```
 az devops service-endpoint list --output table
 ```
-![ServiceConnectionIDRetreival.png](/Images/AzureDevOps/ServiceConnection_AzureCLI/ServiceConnectionIDRetreival.png)
-
 Copy the **Id** of the Service Connection, format the command as follows and run.
+
+![ServiceConnectionIDRetreival.png](/Images/AzureDevOps/ServiceConnection_AzureCLI/ServiceConnectionIDRetreival.png)
 
 ```
 az devops service-endpoint update --id 6404623d-5e21-41d2-882d-01f3df53fc23 --enable-for-all

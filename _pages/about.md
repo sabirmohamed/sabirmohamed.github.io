@@ -8,7 +8,7 @@ Hi I am Sabir Mohamed, I work as Cloud Solutions Architect at [Visolit](https://
 
 The Visolit Cloud Center of Excellence (CCoE) is a central, cross-functional team in Visolit that develops, manages, and owns the Visolit cloud strategies, standards, and principles and the integrity of the practices. Through the CCoE, Visolit innovates and delivers cloud native services at the speed of business, with high quality and efficiency having DevOps as a standard cloud service delivery practice.
 
-I am glad to be part of this team where I get tons of hands-on from Architecture and Development of Infrastructure as Code, Policy as Code, CSP End to End Automation Components and Deploying everything using Azure DevOps all while working in Sprints.  
+I enjoy being part of this team where I get tons of hands-on from Architecture and Development of Infrastructure as Code, Policy as Code, CSP End to End Automation of Landing Zones and other components deploying everything using Azure DevOps all while working in Sprints.  
 
 Part of this blog I will try to break down my posts to a beginner level engineer on All things Azure and Azure DevOps on what I find interesting or maybe document my journey on what I learn where I struggle.
 
