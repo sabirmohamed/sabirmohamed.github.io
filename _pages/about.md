@@ -8,7 +8,7 @@ Hi there <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/mas
 
 I am Sabir, I am a Passionate Technology Fanatic with over 10 years of experience who loves to connect with technical and business executives, listen to their challenges and help them accelerate/transform their Infrastructure and App Modernization Journey with Cloud Native Technologies.
 
-Next to my role as Cloud Solutions Architect I also play a Dev Role in Visolit for the CCoE Team. I enjoy being part of this team where I get tons of hands-on from Architecture and Development of Infrastructure as Code, Policy as Code, CSP End to End Automation of Landing Zones, and other components deploying everything at Scale using Azure DevOps all while working in Sprints which helps me to keep my IaC, DevOps skills intact. 
+Next to my role as Cloud Solutions Architect I also play a Dev Role in Visolit for the CCoE Team. I enjoy being part of this team where I get tons of hands-on from Architecture and Development of Infrastructure as Code, Policy as Code, CSP End to End Work flow Automation of Landing Zones, and other IaaS components deploying everything at Scale using Azure DevOps CI/CD Work flows all while working in Sprints which helps me to keep my IaC, DevOps, Agile/Scrum skills intact.
 
 I share and document some of my learning experience in sabirmohamed.com also aiming to contribute to CloudSkills.io on topics covering Azure, DevOps, Kubernetes and GitOps
 
