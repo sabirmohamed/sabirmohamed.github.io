@@ -12,9 +12,9 @@ Next to my role as Cloud Solutions Architect I also play a Dev Role in Visolit f
 
 I share and document some of my learning experience in sabirmohamed.com also aiming to contribute to CloudSkills.io on topics covering Azure, DevOps, Kubernetes and GitOps
 
-I’m always willing to help, open to building relationships with new people, connect and contribute to the community, so please feel free to reach out anytime here or @sabirmoe on Twitter
+I’m always willing to help, open to building relationships with new people, connect and contribute to the community, so please feel free to reach out anytime on [LinkedIn](https://www.linkedin.com/in/sabirm/) or [Twitter](https://twitter.com/sabirmoe/)
 
-Check out my certifications at https://www.credly.com/users/sabirmohamed
+Check out my [Certifications](https://www.credly.com/users/sabirmohamed)
 
 ![Rock.png](/Images/AboutMe/Rock.jpg)
 
