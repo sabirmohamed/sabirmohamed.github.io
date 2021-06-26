@@ -10,7 +10,7 @@ I am Sabir, I am a Passionate Technology Fanatic with over 10 years of experienc
 
 Next to my role as Cloud Solutions Architect I also play a Dev Role in Visolit for the CCoE Team. I enjoy being part of this team where I get tons of hands-on from Architecture and Development of Infrastructure as Code, Policy as Code, CSP End to End Work flow Automation of Landing Zones, and other IaaS components deploying everything at Scale using Azure DevOps CI/CD Work flows all while working in Sprints which helps me to keep my IaC, DevOps, Agile/Scrum skills intact.
 
-I share and document some of my learning experience in sabirmohamed.com also aiming to contribute to CloudSkills.io on topics covering Azure, DevOps, Kubernetes and GitOps
+I share and document some of my learning experience here and also aiming to contribute to CloudSkills.io on topics covering Azure, DevOps, Kubernetes and GitOps
 
 I’m always willing to help, open to building relationships with new people, connect and contribute to the community, so please feel free to reach out anytime on [LinkedIn](https://www.linkedin.com/in/sabirm/) or [Twitter](https://twitter.com/sabirmoe/)
 
